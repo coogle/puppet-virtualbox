@@ -33,7 +33,7 @@ class virtualbox::setup_users {
     
   }
   
-  user { "ubuntu" :
-     groups => ["vboxsf", "ubuntu"]
+  user { "developer" :
+     groups => ["vboxsf", "developer"]
   }
 }
